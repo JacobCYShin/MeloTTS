@@ -8,7 +8,7 @@ from melo.api import TTS
 speed = 1.5
 device = 'cpu' # or cuda:0
 
-text = "테스트 문구 입니다."
+text = "테스트 문구"
 model = TTS(language='KR', device=device)
 speaker_ids = model.hps.data.spk2id
 
